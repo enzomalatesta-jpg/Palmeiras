@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    color: #ffffff;
+    background-color: #9fe64f;
+    display: flex;
+    gap: 100px;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 5%;
+}
+a {
+    text-decoration: none;
+}
+#header-link{
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  text-decoration: none;
+}
+
+#header-link p{
+ color: rgb(253, 251, 251);
+ font-weight: bold;
+ font-size: 22px;
+ background-color: rgb(101, 153, 212);
+ border-radius: 5px;
+ text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+}
+header img {
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+}
+#nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body {
+    background-color: #beffbbf8;
+}
+.bum {
+    font-size: 80px;
+    color: rgb(47, 253, 6);
+    background-color: rgb(156, 224, 255);
+    text-align: center;
+    height: 400px;
+}
+.sep {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bum {
+     background-image: url('../assets/img/buner.png');
+    background-color: rgb(89, 2, 230);
+    text-align: center;
+    height: 700px;
+}
+h2 {
+    font-size: 40px;
+    padding: 5px;
+}
+h3 {
+    font-size: 40px;
+    padding: 5px;
+}
+body p {
+    font-size: 40px;
+    padding: 2px;
+}
+
+#ta {
+    text-align: center;
+     display: flex;
+     align-content: center;
+     justify-content: center;
+     font-size: 50px;
+}
+#historia {
+    background-color: rgb(82, 219, 28);
+    border-radius: 20px;
+    margin: 50px;
+     padding: 15px;
+     width: 32%;
+     text-align: center;
+     flex-direction: row;
+      color: rgb(255, 254, 253);
+}
+#ofertas {
+    background-color: rgb(252, 252, 252);
+    border-radius: 20px;
+    margin: 50px;
+     padding: 15px;
+     width: 32%;
+     text-align: center;
+     flex-direction: row;
+     color: rgb(0, 0, 0);
+}
+#ofertas img{
+border-radius: 20px;
+height: 400px;
+width: 600px;
+}
+#historia img{
+border-radius: 20px;
+height: 400px;
+width: 600px;
+}
+#iu {
+    display: flex;
+    gap: 8%;
+    align-items: stretch;
+    justify-content: space-around
+}
+#iu a{
+color: rgb(52, 61, 196);
+text-decoration: none;
+}
